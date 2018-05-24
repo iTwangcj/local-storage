@@ -4,7 +4,7 @@ lib/.*
 .*/_storage/.*
 
 [libs]
-node_modules/@verdaccio/types/lib/
+node_modules/@fem/types/lib/
 
 [options]
 suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe

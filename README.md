@@ -1,19 +1,19 @@
-# @verdaccio/local-storage
+# @fem/local-storage
 
-📦 File system storage plugin for verdaccio 
+📦 File system storage plugin for fem 
 
 
-[![CircleCI](https://circleci.com/gh/verdaccio/local-storage/tree/master.svg?style=svg)](https://circleci.com/gh/verdaccio/local-storage/tree/master)
-[![Backers on Open Collective](https://opencollective.com/verdaccio/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/verdaccio/sponsors/badge.svg)](#sponsors)
-[![Gitter chat](https://badges.gitter.im/verdaccio/questions.png)](https://gitter.im/verdaccio/)
-[![dependencies Status](https://david-dm.org/verdaccio/local-storage/status.svg)](https://david-dm.org/verdaccio/local-storage)
-[![Known Vulnerabilities](https://snyk.io/test/github/verdaccio/local-storage/badge.svg?targetFile=package.json)](https://snyk.io/test/github/verdaccio/local-storage?targetFile=package.json)
-[![codecov](https://codecov.io/gh/verdaccio/local-storage/branch/master/graph/badge.svg)](https://codecov.io/gh/verdaccio/local-storage)
+[![CircleCI](https://circleci.com/gh/fem/local-storage/tree/master.svg?style=svg)](https://circleci.com/gh/fem/local-storage/tree/master)
+[![Backers on Open Collective](https://opencollective.com/fem/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/fem/sponsors/badge.svg)](#sponsors)
+[![Gitter chat](https://badges.gitter.im/fem/questions.png)](https://gitter.im/fem/)
+[![dependencies Status](https://david-dm.org/fem/local-storage/status.svg)](https://david-dm.org/fem/local-storage)
+[![Known Vulnerabilities](https://snyk.io/test/github/fem/local-storage/badge.svg?targetFile=package.json)](https://snyk.io/test/github/fem/local-storage?targetFile=package.json)
+[![codecov](https://codecov.io/gh/fem/local-storage/branch/master/graph/badge.svg)](https://codecov.io/gh/fem/local-storage)
 
-> This package is already built-in in verdaccio
+> This package is already built-in in fem
 
 ```
-npm install @verdaccio/local-storage
+npm install @fem/local-storage
 ```
 
 ### API
@@ -28,7 +28,7 @@ The main object that handle a JSON database the private packages.
 new LocalDatabase(config, logger);
 ```
 
-* **config**: A verdaccio configuration instance.
+* **config**: A fem configuration instance.
 * **logger**: A logger instance
 
 ### LocalFS
@@ -42,4 +42,4 @@ new LocalFS(packageStoragePath, logger);
 
 
 ## License
-Verdaccio is [MIT licensed](https://github.com/verdaccio/local-storage/blob/master/LICENSE).
+fem is [MIT licensed](https://github.com/fem/local-storage/blob/master/LICENSE).
